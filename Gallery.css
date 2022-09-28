@@ -1,0 +1,403 @@
+.gall{
+    /* color: #CCAC00; */
+   margin-top: 120px;
+   /* border: 1px solid black; */
+   /* width: 50%; */
+
+
+    
+}
+
+.gall h1{
+    color: #CCAC00;
+    margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+font-weight: lighter;
+    /* font-family: 'Great Vibes', cursive; */
+
+}
+
+.gall p{
+  width: 70%;
+   text-align:center;
+   font-size: 1rem;
+}
+
+.photos{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+
+}
+.phots11{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal1.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+.phots12{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal2.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots13{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal4.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots14{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less18.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots15{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal5.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots16{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal6.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots17{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal7.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots18{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less17.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots19{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal9.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots20{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal10.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots21{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal11web-min.webp');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots22{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/gal12web-min.webp');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+    border-radius: 3px;
+
+}.phots23{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less16.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots24{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less4.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots25{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less5.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots26{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less6.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots27{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less7.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots28{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less8.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots29{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less9.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots30{
+    height: 300px;
+    width: 350px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less10.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots31{
+    height: 300px;
+    width: 250px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less11.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+.phots32{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less15.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots33{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less13.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}.phots34{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/less14.JPG');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+
+.phots{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/fort.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+.phots1{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/chair.jpg');
+    background-size: 100% 100%;
+    margin-right: 5px;
+    border-radius: 3px;
+
+    /* background-image: url('../../img/virushka.jpg'); */
+
+}.phots2{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    /* background-image: url('../../img/Frame\ 8.png'); */
+    background-size: 100% 100%;
+    margin-right: 5px;
+    background-image: url('../../elegant\ photos/nice10.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+
+
+}.phots3{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/nice9.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+   
+    
+}
+.phots4{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-image: url('../../elegant\ photos/nice8.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+   
+
+}
+.phots5{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+    background-image: url('../../elegant\ photos/arrange.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+}
+.phots6{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+    background-image: url('../../elegant\ photos/nice2-min.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+
+}.phots7{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+        background-image: url('../../elegant\ photos/gal12web-min.webp');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+}.phots8{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+    background-image: url('../../elegant\ photos/nice5.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+  
+
+}.phots9{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #CCAC00;
+    margin-right: 5px;
+    background-image: url('../../elegant\ photos/nice3.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+
+}
+.phots10{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #CCAC00;
+    background-image: url('../../elegant\ photos/nice7.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+
+}
+
+@media (max-width:550px) {
+    .phots1,.phots2,.phots3,.phots4,.phots7,.phots8,.phots9,.phots10{
+        width: 400px;
+        height: 400px;
+    }
+}
