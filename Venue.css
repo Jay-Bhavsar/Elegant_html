@@ -112,14 +112,14 @@ margin-bottom: 10px;
 }
 .locimg{
     width: 50%;
-    background-image: url('../../img/jaies.jpeg');
+    background-image: url('img/jaies.jpeg');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
 }
 .locimg5{
     width: 50%;
-    background-image: url('../../img/leela1.webp');
+    background-image: url('img/leela1.webp');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
@@ -128,8 +128,8 @@ margin-bottom: 10px;
 
 .locimg1{
     width: 50%;
-    background-image: url('../../img/teameelgant.webp');
-    background-image: url('../../img/advita.webp');
+    background-image: url('img/teameelgant.webp');
+    background-image: url('img/advita.webp');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
@@ -137,7 +137,7 @@ margin-bottom: 10px;
 }
 .locimg2{
     width: 50%;
-    background-image: url('../../img/westin.webp');
+    background-image: url('img/westin.webp');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
@@ -145,7 +145,7 @@ margin-bottom: 10px;
 }
 .locimg3{
     width: 50%;
-    background-image: url('../../img/fair.webp');
+    background-image: url('img/fair.webp');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
@@ -153,7 +153,7 @@ margin-bottom: 10px;
 }
 .locimg4{
     width: 50%;
-    background-image: url('../../img/jalmahal.webp');
+    background-image: url('img/jalmahal.webp');
     background-size: 100% 100%;
     margin: 10px;
     border: 4px solid #CCAC00;
@@ -213,7 +213,7 @@ font-weight: lighter;
     }
     .locimg5{
         width: 70%;
-        background-image: url('../../img/leela1.webp');
+        background-image: url('img/leela1.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -221,7 +221,7 @@ font-weight: lighter;
     
     .locimg1{
         width: 70%;
-        background-image: url('../../img/advita.webp');
+        background-image: url('img/advita.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -229,7 +229,7 @@ font-weight: lighter;
     }
     .locimg2{
         width: 70%;
-        background-image: url('../../img/westin.webp');
+        background-image: url('img/westin.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -237,7 +237,7 @@ font-weight: lighter;
     }
     .locimg3{
         width: 70%;
-        background-image: url('../../img/fair.webp');
+        background-image: url('img/fair.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -245,7 +245,7 @@ font-weight: lighter;
     }
     .locimg4{
         width: 70%;
-        background-image: url('../../img/jalmahal.webp');
+        background-image: url('img/jalmahal.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -253,7 +253,7 @@ font-weight: lighter;
     }
     .locimg{
         width: 70%;
-        background-image: url('../../img/jaies.jpeg');
+        background-image: url('img/jaies.jpeg');
         background-size: 100% 100%;
         margin: 10px;
         height: 50vh;
@@ -264,7 +264,7 @@ font-weight: lighter;
 @media(max-width:450px){
     .locimg5{
         width: 90%;
-        background-image: url('../../img/leela1.webp');
+        background-image: url('img/leela1.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
@@ -272,7 +272,7 @@ font-weight: lighter;
     
     .locimg1{
         width: 90%;
-        background-image: url('../../img/advita.webp');
+        background-image: url('img/advita.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
@@ -280,7 +280,7 @@ font-weight: lighter;
     }
     .locimg2{
         width: 90%;
-        background-image: url('../../img/westin.webp');
+        background-image: url('img/westin.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
@@ -288,7 +288,7 @@ font-weight: lighter;
     }
     .locimg3{
         width: 90%;
-        background-image: url('../../img/fair.webp');
+        background-image: url('img/fair.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
@@ -296,7 +296,7 @@ font-weight: lighter;
     }
     .locimg4{
         width: 90%;
-        background-image: url('../../img/jalmahal.webp');
+        background-image: url('img/jalmahal.webp');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
@@ -304,7 +304,7 @@ font-weight: lighter;
     }
     .locimg{
         width: 90%;
-        background-image: url('../../img/jaies.jpeg');
+        background-image: url('img/jaies.jpeg');
         background-size: 100% 100%;
         margin: 10px;
         height: 40vh;
