@@ -11,7 +11,9 @@
 .gall h1{
     color: #CCAC00;
     margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merienda', cursive;
+
 font-weight: lighter;
     /* font-family: 'Great Vibes', cursive; */
 
@@ -23,6 +25,33 @@ font-weight: lighter;
    font-size: 1rem;
 }
 
+
+.gall1{
+    /* color: #CCAC00; */
+   margin-top: 50px;
+   /* border: 1px solid black; */
+   /* width: 50%; */
+
+
+    
+}
+
+.gall1 h1{
+    color: #CCAC00;
+    margin-bottom: 10px;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merienda', cursive;
+
+font-weight: lighter;
+    /* font-family: 'Great Vibes', cursive; */
+
+}
+
+.gall1 p{
+  width: 70%;
+   text-align:center;
+   font-size: 1rem;
+}
 .photos{
     /* border: 2px solid black; */
     display: flex;
@@ -44,6 +73,112 @@ font-weight: lighter;
     border-radius: 3px;
 
 }
+.phots11:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots12:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots13:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots14:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots15:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots16:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots17:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}.phots18:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots19:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots20:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots21:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots22:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots27:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots28:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots29:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots30:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+
+.phots31:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots32:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots33:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots34:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots35:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots36:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+
 .phots12{
     height: 300px;
     width: 400px;
@@ -301,7 +436,7 @@ font-weight: lighter;
 
 }.phots2{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
     /* background-image: url('../../img/Frame\ 8.png'); */
     background-size: 100% 100%;
@@ -356,7 +491,7 @@ font-weight: lighter;
 
 }.phots7{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
         background-image: url('elegant\ photos/gal12web-min.webp');

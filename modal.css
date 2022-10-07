@@ -1,0 +1,257 @@
+html,
+/* body {
+  position: relative;
+  height: 100%;
+} */
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* body {
+  background: #000;
+  color: #000;
+} */
+
+.swiper {
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  /* opacity: 0.4; */
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  /* opacity: 1; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blackout {
+  top: 0;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  transition: z-index 500ms, visibility 800ms, opacity 1000ms;
+}
+#blackout.visable {
+  opacity: 1;
+  z-index: 8;
+  visibility: visible;
+}
+#popup {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup .close {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(0, 0, 0);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup .close:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup {
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup {
+    margin-top: -245px;
+  }
+}
+
+/* Not Part of Modal 
+===============================*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* body{
+	margin: 0;
+	padding: 0;
+  font-family: 'Open Sans';
+  background: url(https://i.imgur.com/r3rMtkw.jpg) no-repeat center center fixed;
+  background-size: cover;
+} */
+.open {
+  margin: 10px;
+  padding: 15px;
+}
+.reviews {
+  text-align: center;
+  /* color: blue; */
+  margin-bottom: 20px;
+  /* height: 1000px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merienda', cursive;
+
+}
+
+.reviews p {
+  width: 80%;
+  /* height: 60px; */
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.reviews img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: -3px;
+  object-fit: cover;
+}
+
+.reviews h1 {
+  color: #ccac00;
+  font-size: 2rem;
+  font-family: 'Merienda', cursive;
+
+}

@@ -10,11 +10,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
     />
-
+    <link rel="stylesheet" href="modal.css" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav class="navbar fixed-top">
@@ -56,7 +60,103 @@
 
     <!-- slide -->
 
-    <div class="slider">
+    <div class="swiper mySwiper" id="mainslider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less12.JPG" alt="" />
+          <div class="centered">
+            <h1>We make your dream wedding come true</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less17.JPG" alt="" />
+          <div class="centered">
+            <h1>Tie your knot on iconic locations</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less15.JPG" alt="" />
+          <div class="centered">
+            <h1>Personalize your weddings and ceremonies</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less14.JPG" alt="" />
+          <div class="centered">
+            <h1>Personalize your weddings and ceremonies</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less16.JPG" alt="" />
+          <div class="centered">
+            <h1>Personalize your weddings and ceremonies</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide img-gradient">
+          <img src="elegant photos/less17.JPG" alt="" />
+          <div class="centered">
+            <h1>Personalize your weddings and ceremonies</h1>
+            <br />
+            <div class="cta">
+              <a href="About.html">
+                <button class="milo2">Know More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- <div class="slider">
       <div class="slide1">
         <h3>"We make your dream wedding come true"</h3>
         <div class="cta">
@@ -81,13 +181,13 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- flexbox -->
 
     <div class="conta">
       <div class="box2">
-        <center></center>
+        <img src="https://iili.io/LOfcHx.webp" alt="" />
       </div>
       <div class="box1">
         <br />
@@ -123,73 +223,249 @@
       </div>
     </div>
 
+    <div id="blackout"></div>
+    <div id="popup">
+      <span class="close">&times;</span>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="elegant photos/gal1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="elegant photos/gal2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="elegant photos/gal5-min.jpg" alt="" />
+          </div>
+          <!-- <div class="swiper-slide">Slide 4</div> -->
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- Not Part of Modal -->
+    <!-- <button class="open">Click to Show Modal</button> -->
+
+    <script>
+      window.onload = function () {
+        document.getElementById("blackout").addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "";
+            document.getElementById("blackout").className = "";
+          },
+          false
+        );
+        document.getElementsByClassName("open")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open1")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open2")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open3")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open4")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open5")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open6")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open7")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("open8")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "visable";
+            document.getElementById("blackout").className = "visable";
+          },
+          false
+        );
+        document.getElementsByClassName("close")[0].addEventListener(
+          "click",
+          function () {
+            document.getElementById("popup").className = "";
+            document.getElementById("blackout").className = "";
+          },
+          false
+        );
+      };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+
+    <br /><br /><br /><br /><br />
     <!-- services -->
-    <div class="head">
+    <div class="head" id="services">
       <center>
         <h1>Our <span>Services</span></h1>
       </center>
     </div>
     <div class="services">
-      <div class="serv6" id="#slide-1"></div>
+      <div class="serv6 open"></div>
 
-      <div class="serv" id=""></div>
-      <div class="serv7" id="#slide-2"></div>
-      <div class="serv1" id=""></div>
-      <div class="serv3" id="#slide-3"></div>
-      <div class="serv4" id=""></div>
-      <div class="serv5" id="#slide-4"></div>
-      <div class="serv8" id=""></div>
-      <div class="serv2" id="#slide-5"></div>
+      <div class="serv open1" id=""></div>
+      <div class="serv7 open2"></div>
+      <div class="serv1 open3" id=""></div>
+      <div class="serv3 open4"></div>
+      <div class="serv4 open5" id=""></div>
+      <div class="serv5 open6"></div>
+      <div class="serv8 open7" id=""></div>
+      <div class="serv2 open8"></div>
     </div>
-    <br /><br />
 
+    <br /><br />
 
     <div class="head">
       <center>
         <h1>Our <span>Happy Faces</span></h1>
       </center>
     </div>
-    <br><br>
+    <br /><br />
 
     <div class="swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide reviews"><center>
-          <img src="elegant photos/richa.jpeg" className="clientphoto" alt="" />
-          <br />
-          <h1>Priyansh and Abhilasha</h1>
-          <p>
-           
-            " If you are looking for a team who can change your dreams into
-            reality, I would recommend eelegant events to you. Planning this
-            wedding from afar seemed very daunting and needed someone we could
-            trust with the entire event. After meeting their team, we
-            immediately felt relieved as their work ethic was so strong and
-            moreover that they understood our vision of wedding very nicely
-            Their entire team took care of the smallest of the details and
-            executed the wedding so well. A big thank you to their whole team
-            for making our wedding day so memorable and beautiful. So grateful
-            for them that we got to live our dream. "
-          </p>
-        </center></div>
-        <div class="swiper-slide reviews">  <center>
-          <img src="elegant photos/priyansh.jpeg" className="clientphoto" alt="" />
-          <br />
-          <h1>  Richa and Anurag</h1>
+        <div class="swiper-slide reviews vision2">
+          <div class="vision3">
+          
+            <br /><br />
+          <center>
+            <h1>Priyansh and Abhilasha</h1>
 
-          <p>
-           
-            "Eelegant events made our wedding as special and magical just the
-            way we wanted our wedding to be. I must say that the results were
-            grander than our imaginations. All of us were thrilled with the
-            outcome. We experienced only one emotion – that was pure joy &
-            peace!! Their hard work and incredible work ethic made our wedding
-            the gorgeous affair we had always envisioned. Immense gratitude in
-            our heart that we came across eelegant events and thankful for
-            their whole team for giving us the best wedding."
-          </p>
-        </center></div>
-      
+            <p>
+              " If you are looking for a team who can change your dreams into
+              reality, I would recommend eelegant events to you. Planning this
+              wedding from afar seemed very daunting and needed someone we could
+              trust with the entire event. After meeting their team, we
+              immediately felt relieved as their work ethic was so strong and
+              moreover that they understood our vision of wedding very nicely
+              Their entire team took care of the smallest of the details and
+              executed the wedding so well. A big thank you to their whole team
+              for making our wedding day so memorable and beautiful. So grateful
+              for them that we got to live our dream. "
+            </p>
+          </center>
+             
+              
+            
+          </div>
+        </div>
+        <div class="swiper-slide reviews vision2">
+          <div class="vision4">
+          
+            <br /><br />
+            <div>
+              <center>
+                <h1>Richa and Anurag</h1>
+
+              <p>
+                " If you are looking for a team who can change your dreams into
+                reality, I would recommend eelegant events to you. Planning this
+                wedding from afar seemed very daunting and needed someone we could
+                trust with the entire event. After meeting their team, we
+                immediately felt relieved as their work ethic was so strong and
+                moreover that they understood our vision of wedding very nicely
+                Their entire team took care of the smallest of the details and
+                executed the wedding so well. A big thank you to their whole team
+                for making our wedding day so memorable and beautiful. So grateful
+                for them that we got to live our dream. "
+              </p>
+              </center>
+              
+              
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
@@ -198,7 +474,44 @@
       <div class="swiper-button-next"></div>
     </div>
 
-    <div class="head">
+    <div class="vision2">
+      <center>
+        <h1>Values that we Follow</h1>
+      </center>
+      <br /><br />
+      <div class="qualities">
+        <div class="qual1">
+          <center>
+            <img src="img/camera.png" alt="" />
+          </center>
+          <br />
+          <h2>Imagination</h2>
+        </div>
+        <div class="qual2">
+          <!-- <img src="img/idea.png" alt="" /> -->
+          <center><img src="img/idea.png" alt="" /></center>
+          <br />
+          <h2>Creativity</h2>
+        </div>
+        <div class="qual3">
+          <!-- <img src="img/handshake (1).png" alt="" /> -->
+          <center>
+            <img src="img/handshake (1).png" alt="" />
+          </center>
+          <br />
+          <h2>Commitment</h2>
+        </div>
+        <div class="qual4">
+          <center>
+            <img src="img/passion (1).png" alt="" />
+          </center>
+          <br />
+          <h2>Passion</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="head" id="portfo">
       <center>
         <h1>Our <span>Portfolio</span></h1>
       </center>
@@ -215,16 +528,13 @@
           <a href="Gallery.html"><div class="kaam5"></div></a>
           <a href="Gallery.html"><div class="kaam6"></div></a>
           <a href="Gallery.html"> <div class="kaam7"></div></a>
-          <a href="Gallery.html"><div class="kaam8"></div></a>
+          <!-- <a href="Gallery.html"><div class="kaam8"></div></a> -->
           <a href="Gallery.html"><div class="kaam9"></div></a>
         </div>
       </div>
     </div>
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
 
     <script>
       /* ========
@@ -234,85 +544,85 @@
         extendParams({
           debugger: false,
         });
-  
-        on('init', () => {
+
+        on("init", () => {
           if (!swiper.params.debugger) return;
-          console.log('init');
+          console.log("init");
         });
-        on('click', (swiper, e) => {
+        on("click", (swiper, e) => {
           if (!swiper.params.debugger) return;
-          console.log('click');
+          console.log("click");
         });
-        on('tap', (swiper, e) => {
+        on("tap", (swiper, e) => {
           if (!swiper.params.debugger) return;
-          console.log('tap');
+          console.log("tap");
         });
-        on('doubleTap', (swiper, e) => {
+        on("doubleTap", (swiper, e) => {
           if (!swiper.params.debugger) return;
-          console.log('doubleTap');
+          console.log("doubleTap");
         });
-        on('sliderMove', (swiper, e) => {
+        on("sliderMove", (swiper, e) => {
           if (!swiper.params.debugger) return;
-          console.log('sliderMove');
+          console.log("sliderMove");
         });
-        on('slideChange', () => {
+        on("slideChange", () => {
           if (!swiper.params.debugger) return;
           console.log(
-            'slideChange',
+            "slideChange",
             swiper.previousIndex,
-            '->',
+            "->",
             swiper.activeIndex
           );
         });
-        on('slideChangeTransitionStart', () => {
+        on("slideChangeTransitionStart", () => {
           if (!swiper.params.debugger) return;
-          console.log('slideChangeTransitionStart');
+          console.log("slideChangeTransitionStart");
         });
-        on('slideChangeTransitionEnd', () => {
+        on("slideChangeTransitionEnd", () => {
           if (!swiper.params.debugger) return;
-          console.log('slideChangeTransitionEnd');
+          console.log("slideChangeTransitionEnd");
         });
-        on('transitionStart', () => {
+        on("transitionStart", () => {
           if (!swiper.params.debugger) return;
-          console.log('transitionStart');
+          console.log("transitionStart");
         });
-        on('transitionEnd', () => {
+        on("transitionEnd", () => {
           if (!swiper.params.debugger) return;
-          console.log('transitionEnd');
+          console.log("transitionEnd");
         });
-        on('fromEdge', () => {
+        on("fromEdge", () => {
           if (!swiper.params.debugger) return;
-          console.log('fromEdge');
+          console.log("fromEdge");
         });
-        on('reachBeginning', () => {
+        on("reachBeginning", () => {
           if (!swiper.params.debugger) return;
-          console.log('reachBeginning');
+          console.log("reachBeginning");
         });
-        on('reachEnd', () => {
+        on("reachEnd", () => {
           if (!swiper.params.debugger) return;
-          console.log('reachEnd');
+          console.log("reachEnd");
         });
       }
     </script>
-  
+
     <script>
       // Init Swiper
-      var swiper = new Swiper('.swiper', {
+      var swiper = new Swiper(".swiper", {
         // Install Plugin To Swiper
         modules: [myPlugin],
         pagination: {
-          el: '.swiper-pagination',
+          el: ".swiper-pagination",
           clickable: true,
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         // Enable debugger
         debugger: true,
       });
     </script>
-
+    <!-- 
     <div class="feed" id="directfeed">
       <div class="feedbox">
         <div class="feed1">
@@ -366,11 +676,6 @@
         </div>
       </div>
 
-
-      
-
-
-
       <div class="contactus">
         <center>
           <h1>Contact <span> Us</span></h1>
@@ -394,9 +699,9 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="footer">
+    <!-- <div class="footer">
       <div class="logo1">
         <img src="elegant photos/ee.png" alt="" srcset="" />
         <p>
@@ -413,8 +718,226 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="container gettouchmar">
+      <div class="innerwrap">
+        <section class="section1 clearfix">
+          <div class="textcenter">
+            <!-- <span class="shtext">Contact Us</span> -->
+            <span class="seperator"></span>
+            <h1>Get in <span>Touch</span></h1>
+          </div>
+        </section>
+        <br />
+        <section class="section2 clearfix">
+          <div class="col2 column1 first map">
+            <iframe
+              class="gmap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.6155923532815!2d75.74964091485212!3d26.883951683139962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4f10212e079%3A0xc0d67b83f5ca762e!2sJaies%20Garden!5e0!3m2!1sen!2sin!4v1664999218805!5m2!1sen!2sin"
+              width="300"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.6155923532815!2d75.74964091485212!3d26.883951683139962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4f10212e079%3A0xc0d67b83f5ca762e!2sJaies%20Garden!5e0!3m2!1sen!2sin!4v1665134261687!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+          </div>
+          <div class="col2 column2 last">
+            <div class="sec2innercont">
+              <!-- <div class="sec2addr">
+                <p>
+                  <span class="collig">Location :</span>Jaies Garden,King's
+                  Road,Nirman Nagar,Jaipur
+                </p>
+                <p><span class="collig">Phone :</span> +91 9529566660</p>
+                <p>
+                  <span class="collig">Email :</span>
+                  <a href="mailto:contact_us@eelegantevents.com"
+                    >contact_us@eelegantevents.com</a
+                  >
+                </p>
+                <p><span class="collig">Fax :</span> +91 9768850839</p>
+              </div> -->
+            </div>
+            <div class="sec2contactform" id="contactus">
+              <form action="">
+                <div class="clearfix">
+                  <input
+                    class="col2 first"
+                    type="text"
+                    placeholder="FirstName"
+                  />
+                  <input class="col2 last" type="text" placeholder="LastName" />
+                </div>
+                <div class="clearfix">
+                  <input class="col2 first" type="Email" placeholder="Email" />
+                  <input
+                    class="col2 last"
+                    type="text"
+                    placeholder="Contact Number"
+                  />
+                </div>
+                <div class="clearfix">
+                  <textarea name="textarea" id="" cols="10" rows="5">
+Your message here...</textarea
+                  >
+                </div>
+                <div class="clearfix"><input type="submit" value="Send" /></div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
+    <br /><br />
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-3 pb-3">
+          <div class="row">
+            <!-- <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <img src="img/location-pin.png" alt="" />
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>Jaies Garden,King's Road,Nirman Nagar,Jaipur</span>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <img src="img/location.png" alt="" />
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <p>Jaies Garden,King's Road,Nirman Nagar,Jaipur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30" id="callus">
+              <div class="single-cta">
+                <img src="img/call.png" alt="" />
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <a href="tel:+91 9529566660"><p>+91 9529566660</p></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <img src="img/email (1).png" alt="" />
+
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <!-- <span>contact_us@eelegantevents.com</span> -->
+                  <a href="mailto:contact_us@eelegantevents.com"
+                    >contact_us@eelegantevents.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img src="img/eewhite.png" class="img-fluid" alt="logo"
+                  /></a>
+                </div>
+                <!-- <div class="footer-text">
+                  <p>
+                    "Creating the Best day ever" Follow us on our social media
+                    to visualise the grand moments which "Eelegant Events" have
+                    created. Book your event today to get it listed in this
+                    grand golden series.
+                  </p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>
+                  <li><a href="Venue.html">Venue</a></li>
+                  <li><a href="#portfo">Gallery</a></li>
+                  <!-- <li><a href="#contactus">Contact</a></li> -->
+                  <!-- <li><a href="#">About us</a></li> -->
+                  <!-- <li><a href="#Services">Our Services</a></li> -->
+                  <!-- <li><a href="#">Expert Team</a></li> -->
+                  <!-- <li><a href="#">Contact us</a></li> -->
+                  <!-- <li><a href="#">Latest News</a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Follow us</h3>
+                </div>
+                <a href="https://www.instagram.com/eelegant_events/"
+                  ><i class="fab fa-google-plus-g google-bg"
+                    ><img src="img/insta1.png" alt="" /></i
+                ></a>
+                <!-- <div class="footer-text mb-25">
+                  <p>
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button>send</button>
+                  </form>
+                </div> -->
+                <br />
+                <!-- <div class="footer-widget-heading">
+                  <h3>Follow us</h3>
+           
+                  <a href="https://www.instagram.com/eelegant_events/"
+                    ><i class="fab fa-google-plus-g google-bg"
+                      ><img src="img/instagram.png" alt="" /></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>Copyright &copy; 2022 All Right Reserved</p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>

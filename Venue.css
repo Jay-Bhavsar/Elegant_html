@@ -12,7 +12,9 @@
 }
 .gall1 h1{
     color: #CCAC00;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merienda', cursive;
+
   font-weight: lighter;
 margin-bottom: 10px;
 }
@@ -170,7 +172,9 @@ margin-bottom: 10px;
 .loccont h1{
     /* font-family: 'Great Vibes', cursive; */
     color: #CCAC00;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merienda', cursive;
+
 font-weight: lighter;
     
 }
