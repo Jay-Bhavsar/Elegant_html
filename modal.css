@@ -21,7 +21,7 @@ html,
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -36,6 +36,7 @@ html,
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  background-image: url("img/back6.jpeg");
 }
 
 .swiper-slide img {
@@ -43,6 +44,7 @@ html,
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* border-radius:5px; */
 }
 
 /* body {
@@ -98,7 +100,7 @@ html,
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -122,6 +124,14 @@ html,
   object-fit: cover;
 }
 
+@media(min-width:1000px){
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 .swiper {
   margin-left: auto;
   margin-right: auto;
@@ -188,11 +198,28 @@ html,
   cursor: pointer;
   position: absolute;
   border-radius: 15px;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   background-image: url(http://imgh.us/close_1.svg);
   background-size: contain;
 }
 #popup .close:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+#popup1 .close1 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(0, 0, 0);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup1 .close1:hover {
   background-image: url(http://imgh.us/close_hover.svg);
 }
 
@@ -204,6 +231,479 @@ html,
 
 @media (min-width: 1100px) {
   #popup {
+    margin-top: -245px;
+  }
+}
+
+
+
+#popup1 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup1.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup1 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup1 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup1 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup1 .close {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup1 .close:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup1 {
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup1 {
+    margin-top: -245px;
+  }
+}
+
+
+#popup2 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup2.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup2 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup2 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup2 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup2 .close2 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup2 .close2:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup2 {
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup2 {
+    margin-top: -245px;
+  }
+}
+
+
+
+#popup3 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup3.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup3 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup3 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup3 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup3 .close3 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup3 .close3:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup3 {
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup3 {
+    margin-top: -245px;
+  }
+}
+
+
+
+#popup4 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup4.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup4 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup4 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup4 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup4 .close4 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup4 .close4:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup4{
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup4 {
+    margin-top: -245px;
+  }
+}
+
+
+
+#popup5 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup5.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup5 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup5 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup5 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup5 .close5 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup5 .close5:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup5{
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup5 {
+    margin-top: -245px;
+  }
+}
+
+#popup6 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup6.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup6 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup6 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup6 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup6 .close6 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup6 .close6:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup6{
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup6 {
+    margin-top: -245px;
+  }
+}
+
+
+
+#popup8 {
+  opacity: 0;
+  top: -250px;
+  /* left: -300px; */
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin: -125px 0 0 0%;
+  background: rgb(248, 248, 248);
+  margin-top: -174px;
+
+  border: 2px solid #ccac00;
+  transition: top 550ms, opacity 500ms, z-index 500ms;
+}
+
+#popup8.visable {
+  top: 50%;
+  opacity: 1;
+  z-index: 9;
+}
+#popup8 > .title {
+  margin: 0;
+  color: rgb(57, 57, 57);
+}
+#popup8 > .subtitle {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  color: rgb(157, 157, 157);
+}
+#popup8 > hr {
+  border: 0;
+  height: 1px;
+  margin: 10px -15px;
+  background: rgb(208, 208, 208);
+}
+#popup8 .close8 {
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  right: -10px;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background-image: url(http://imgh.us/close_1.svg);
+  background-size: contain;
+}
+#popup8 .close8:hover {
+  background-image: url(http://imgh.us/close_hover.svg);
+}
+
+@media (min-width: 1000px) {
+  #popup8{
+    margin-top: -260px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #popup8 {
     margin-top: -245px;
   }
 }
@@ -222,6 +722,7 @@ html,
   margin: 10px;
   padding: 15px;
 }
+
 .reviews {
   text-align: center;
   /* color: blue; */

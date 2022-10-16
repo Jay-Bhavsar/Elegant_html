@@ -127,6 +127,26 @@ font-weight: lighter;
     border: 3px solid #CCAC00;
 
 }
+.phots23:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots24:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots25:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots26:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
 .phots27:hover{
     transform: scale(1.3);
     border: 3px solid #CCAC00;
@@ -178,6 +198,52 @@ font-weight: lighter;
     border: 3px solid #CCAC00;
 
 }
+.phots:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots2:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots3:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots4:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots6:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots7:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots8:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots9:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+.phots10:hover{
+    transform: scale(1.3);
+    border: 3px solid #CCAC00;
+
+}
+
 
 .phots12{
     height: 300px;
@@ -223,7 +289,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal6.jpg');
+    background-image: url('img/wed8.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -233,7 +299,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal7.jpg');
+    background-image: url('img/wed11.png');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -243,7 +309,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less17.JPG');
+    background-image: url('img/wed2.jpeg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -253,7 +319,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal9.jpg');
+    background-image: url('img/wed3.jpeg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -261,9 +327,9 @@ font-weight: lighter;
 
 }.phots20{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal10.jpg');
+    background-image: url('img/wed4.jpeg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -273,7 +339,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal11web-min.webp');
+    background-image: url('img/haldi`0.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -283,7 +349,9 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/gal12web-min.webp');
+    background-image: url('');
+    background-image: url('elegant photos/gal2.jpg');
+
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px; 
@@ -293,7 +361,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less16.JPG');
+    background-image: url('elegant photos/gal5-min.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -303,7 +371,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less4.JPG');
+    background-image: url('elegant photos/gal9.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -323,7 +391,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less6.JPG');
+    background-image: url('img/haldi8.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -333,7 +401,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less7.JPG');
+    background-image: url('elegant photos/nice12-min.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -341,9 +409,9 @@ font-weight: lighter;
 
 }.phots28{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less8.JPG');
+    background-image: url('img/haldi1.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -353,7 +421,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less9.JPG');
+    background-image: url('img/haldi3.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -361,9 +429,9 @@ font-weight: lighter;
 
 }.phots30{
     height: 300px;
-    width: 350px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less10.JPG');
+    background-image: url('img/haldi7.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -371,9 +439,9 @@ font-weight: lighter;
 
 }.phots31{
     height: 300px;
-    width: 250px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less11.JPG');
+    background-image: url('img/birth7.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -384,7 +452,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less15.JPG');
+    background-image: url('img/birth8.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -394,7 +462,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less13.JPG');
+    background-image: url('img/birth9.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -402,9 +470,9 @@ font-weight: lighter;
 
 }.phots34{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/less14.JPG');
+    background-image: url('img/birth11.webp');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -416,7 +484,7 @@ font-weight: lighter;
     height: 300px;
     width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/fort.jpg');
+    background-image: url('img/sangeet5.jpg');
     background-size: 100% 100%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -427,7 +495,7 @@ font-weight: lighter;
     height: 300px;
     width: 200px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/chair.jpg');
+    background-image: url('img/sangeet6.jpeg');
     background-size: 100% 100%;
     margin-right: 5px;
     border-radius: 3px;
@@ -441,7 +509,7 @@ font-weight: lighter;
     /* background-image: url('../../img/Frame\ 8.png'); */
     background-size: 100% 100%;
     margin-right: 5px;
-    background-image: url('elegant\ photos/nice10.jpg');
+    background-image: url('img/sangeet2.JPG');
     background-size: 100% 100%;
     border-radius: 3px;
 
@@ -449,9 +517,9 @@ font-weight: lighter;
 
 }.phots3{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/nice9.jpg');
+    background-image: url('img/sangeet4.JPG');
     background-size: 100% 100%;
     border-radius: 3px;
    
@@ -459,11 +527,11 @@ font-weight: lighter;
 }
 .phots4{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
     margin-bottom: 5px;
-    background-image: url('elegant\ photos/nice8.jpg');
+    background-image: url('img/sangeet6.jpeg');
     background-size: 100% 100%;
     border-radius: 3px;
    
@@ -474,7 +542,7 @@ font-weight: lighter;
     width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
-    background-image: url('elegant\ photos/arrange.jpg');
+    background-image: url('img/sangeet7.jpg');
     background-size: 100% 100%;
     border-radius: 3px;
 
@@ -494,16 +562,16 @@ font-weight: lighter;
     width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
-        background-image: url('elegant\ photos/gal12web-min.webp');
+        background-image: url('img/ring8.jpg');
     background-size: 100% 100%;
     border-radius: 3px;
 
 }.phots8{
     height: 300px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
-    background-image: url('elegant\ photos/nice5.jpg');
+    background-image: url('img/ring9.jpeg');
     background-size: 100% 100%;
     border-radius: 3px;
 
@@ -514,7 +582,7 @@ font-weight: lighter;
     width: 400px;
     border: 1px solid #CCAC00;
     margin-right: 5px;
-    background-image: url('elegant\ photos/nice3.jpg');
+    background-image: url('img/ring5.jpeg');
     background-size: 100% 100%;
     border-radius: 3px;
 
@@ -522,9 +590,9 @@ font-weight: lighter;
 }
 .phots10{
     height: 300px;
-    width: 200px;
+    width:400px;
     border: 1px solid #CCAC00;
-    background-image: url('elegant\ photos/nice7.jpg');
+    background-image: url('img/ring.jpeg');
     background-size: 100% 100%;
     border-radius: 3px;
 
