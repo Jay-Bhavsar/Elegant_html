@@ -672,7 +672,7 @@ flex-wrap: wrap;
 
   background-position:center;
   /* background-color: rgba(255, 255, 255, 0.7); */
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   object-fit: cover;
   background-size: cover;
@@ -699,7 +699,7 @@ flex-wrap: wrap;
 
   background-position:center;
   /* background-color: rgba(255, 255, 255, 0.7); */
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   object-fit: cover;
   background-size: cover;
@@ -739,7 +739,7 @@ flex-wrap: wrap;
       rgba(0, 0, 0, 0.8),
       rgba(252, 252, 252, 0.1)
     ),
-    url("elegant\ photos/gal5.jpg");
+    url("elegant photos/gal5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade1 15s infinite;
@@ -781,7 +781,7 @@ flex-wrap: wrap;
       rgba(0, 0, 0, 0.8),
       rgba(255, 255, 255, 0.1)
     ),
-    url("elegant\ photos/gal8.jpg");
+    url("elegant photos/gal8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade2 15s infinite;
@@ -799,7 +799,7 @@ flex-wrap: wrap;
       rgba(0, 0, 0, 0.8),
       rgba(255, 255, 255, 0.1)
     ),
-    url("elegant\ photos/gal18-min.JPG");
+    url("elegant photos/gal18-min.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade3 15s infinite;
@@ -1312,7 +1312,7 @@ body{
     border-radius: 20px;
     width: 40%;
     height: 120vh;
-    background-image: url("elegant\ photos/gal4-min.jpg");
+    background-image: url("elegant photos/gal4-min.jpg");
     background-size: 100% 100%;
     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px 10px; */
   }
@@ -1339,7 +1339,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice12-min.jpg");
+    background-image: url("elegant photos/nice12-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1351,7 +1351,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice13-min.jpg");
+    background-image: url("elegant photos/nice13-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1363,7 +1363,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice14-min.jpg");
+    background-image: url("elegant photos/nice14-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1375,7 +1375,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice15-min.jpg");
+    background-image: url("elegant photos/nice15-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1387,7 +1387,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice16-min.jpg");
+    background-image: url("elegant photos/nice16-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1399,7 +1399,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice2-min.jpg");
+    background-image: url("elegant photos/nice2-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1411,7 +1411,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice18-min.jpg");
+    background-image: url("elegant photos/nice18-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1423,7 +1423,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice21-min.jpg");
+    background-image: url("elegant photos/nice21-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1435,7 +1435,7 @@ body{
     /* border: 1px solid black; */
     margin: 20px;
     /* border-radius: 100px; */
-    background-image: url("elegant\ photos/nice22-min.jpg");
+    background-image: url("elegant photos/nice22-min.jpg");
     background-size: 100% 100%;
     border-radius: 8px;
     cursor: pointer;
@@ -1468,7 +1468,7 @@ body{
     /* background-color: #f3d9d9; */
     /* font-family: 'Great Vibes', cursive; */
     /* background-image: url("../../img//gal1.jpg");0 */
-    /* background-image: url('../../img/elegant\ photos/gal1.jpg'); */
+    /* background-image: url('../../img/elegant photos/gal1.jpg'); */
   
     background-size: 100% 100%;
   
