@@ -127,7 +127,7 @@ html,
 }
 
 @media(min-width:1000px){
-  .swiper-slide img {
+  .servimg img {
     display: block;
     width: 50%;
     height: 100%;
@@ -136,7 +136,7 @@ html,
 }
 
 @media(max-width:500px){
-  .swiper-slide img{
+  .servimg img{
     height: 50%;
   }
 }
